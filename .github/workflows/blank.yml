@@ -30,4 +30,6 @@ jobs:
         run: |
           cd /Applications
           ls -l
+          sudo xcode-select -s /Applications/Xcode_15.0.app
+          /usr/bin/xcodebuild -version
           
